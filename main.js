@@ -19,9 +19,9 @@ function determineBtnClicked() {
 
 function determineTicket(speed, limit) {
   // Process & Output
-  if (speed >= speedLimit + 20) {
+  if (speed >= limit + 20) {
     return "BIG TICKET";
-  } else if (speed > speedLimit) {
+  } else if (speed > limit) {
     return "SMALL TICKET";
   } else {
     return "NO TICKET";
